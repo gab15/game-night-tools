@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica');
+
+* {
+  font-family: 'Aclonica', sans-serif;
+}
+
+html {
+  padding-left: 5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+
+div.players {
+  display: block;
+}
+
+button.div-iterator {
+  padding: 3%;
+  background-color: lightgrey;
+  border: 5px solid white;
+  border-radius: 10%;
+  transition: 0.75s;
+}
+
+button.div-iterator:hover {
+  background-color: darkgrey;
+  transition: 0.75s;
+}
+
+button.assassins-val {
+  padding: 3%;
+  background-color: lightgrey;
+  border: 5px solid white;
+  border-radius: 10%;
+  transition: 0.75s;
+}
+
+button.assassins-val:hover {
+  background-color: darkgrey;
+  transition: 0.75s;
+}
